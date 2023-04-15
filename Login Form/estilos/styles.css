@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    gap:20px;
+    align-items: flex-start;
+
+}
+
+#container-1 {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 600px;
+    flex-direction: column;
+    gap: 10px;
+    margin: 25px 25px 0 25px;
+    background-color: #f3f5f9;
+    border-radius: 10px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 25px;
+    padding: 35px 35px 0 35px;
+    margin-top: 100px;
+}
+
+#container-1 span {
+    font-weight: 350;
+    margin-top: 10px;
+    padding: 0 35px;
+}
+
+#container-1 div {
+    width: 80%;
+    height: 35%;
+    background-color: #2d3345;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+#container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px 25px 0 25px;
+    width: 60%;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 80px 0 10px;
+}
+
+#container-2 span.create {
+    color: #9d9d9e;
+    font-weight: 500;
+    margin-bottom: 30px
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: 400;
+    color: #9d9d9e;
+    margin: 10px 0 10px 15px;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    font-size: medium;
+    
+    border: 1px solid #9d9d9e;
+}
+
+input:focus {
+    border: 1px solid #00000;
+
+}
+
+button {
+    width: 50%;
+    background-color: #3c37ff;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
